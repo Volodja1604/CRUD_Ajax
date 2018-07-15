@@ -44,7 +44,8 @@ router.put('/update/:lastName',(req,res)=>{
     }
       return item;
   });
- 
+console.log(req.body.lastName, req.params.lastName);
+console.log(results);
   res.render('index', {
     title: 'List of students',
     lists: results
