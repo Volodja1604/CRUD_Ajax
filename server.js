@@ -1,6 +1,6 @@
 const config=require('./config.js');
 const port=config.port;
-const hostname=config.hostname;
+// const hostname=config.hostname;
 const path = require('path');
 const bodyParser=require('body-parser');
 
